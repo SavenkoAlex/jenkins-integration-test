@@ -3,4 +3,4 @@ function testRun(isInversible: boolean = false): Boolean {
   return !isInversible
 }
 
-testRun()
+console.log("The result of execution: ", testRun())

@@ -10,6 +10,17 @@ pipeline {
             }
         }
     }
+    post {
+      always {
+        echo "this always section in a post topic"
+      }
+      success {
+        echo "Success"
+      }
+      failure {
+        echo "Fail"
+      }
+    }
 }
 
 
