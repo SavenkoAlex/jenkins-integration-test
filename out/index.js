@@ -1,6 +1,8 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.testRun = void 0;
 function testRun(isInversible) {
     if (isInversible === void 0) { isInversible = false; }
     return !isInversible;
 }
-console.log("The result of execution: ", testRun());
+exports.testRun = testRun;
