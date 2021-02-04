@@ -1,0 +1,11 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Savenko A.I.",
+  "license": "ISC"
+}
